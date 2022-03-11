@@ -1,18 +1,21 @@
 #include <stdio.h>
 /**
-*main - entry point, print the alphabets
-*with only two putchar()s
-*
-* Return: Always 0 (Success)
-*/
+ * main - main block
+ * Description: Print all numbers of base 10, starting from 0.
+ * You are not allowed to use any variable of type char.
+ * You can only use `putchar` to print to console.
+ * You can only use `putchar` twice.
+ * Return: 0
+ */
 int main(void)
 {
-	int i = 0;
-	while (i < 10)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
-		i++;
+		putchar(i + '0');
 	}
-	printf("\n");
+	putchar('\n');
+
 	return (0);
 }
