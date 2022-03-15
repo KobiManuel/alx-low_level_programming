@@ -1,10 +1,10 @@
 #include "stdio.h"
 
 /**
- * main - entry point
- * Descriptipn: a program that prints _putchar,
- * followed by a new line.
- * Return: 0;
+ * main - Entry point
+ * @c: standard char input
+ * printing with a local function
+ * Return: Always 0 (Success);
  */
 int _putchar(int c);
 int main(void)
